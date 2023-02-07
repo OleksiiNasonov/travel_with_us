@@ -35,7 +35,7 @@
   width: 105px;
   height: 40px;
   color: #ffffff;
-  background-image: url(/icon/chevron-down.svg);
+  background-image: url(../icon/chevron-down.svg);
   background-repeat: no-repeat;
   background-position: bottom;
   text-decoration: none;
@@ -86,7 +86,7 @@
   padding: auto;
 }
 .img__right {
-  background-image: url(/img/Image-mobile.jpg);
+  background-image: url(../img/Image-mobile.jpg);
   width: 258px;
   height: 162px;
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@
 }
 @media screen and (min-width: 768px) {
   .img__right {
-    background-image: url(/img/Img.jpg);
+    background-image: url(../img/Img.jpg);
     background-repeat: no-repeat;
     width: 348px;
     height: 219px;
@@ -118,7 +118,7 @@
   }
 }
 .img__left {
-  background-image: url(/img/img-mobile.jpg);
+  background-image: url(../img/img-mobile.jpg);
   width: 258px;
   height: 162px;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@
 }
 @media screen and (min-width: 768px) {
   .img__left {
-    background-image: url(/img/Image.jpg);
+    background-image: url(../img/Image.jpg);
     background-repeat: no-repeat;
     width: 348px;
     height: 219px;
@@ -191,7 +191,7 @@
 
 @media screen and (min-width: 1024px) {
   .main__steps {
-    background-image: url(/img/StepsMini.jpg);
+    background-image: url(../img/StepsMini.jpg);
     width: 100%;
     height: 306px;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@
 }
 @media screen and (min-width: 1360px) {
   .main__steps {
-    background-image: url(/img/Steps.jpg);
+    background-image: url(../img/Steps.jpg);
     width: 100%;
     height: 308px;
   }
@@ -288,19 +288,19 @@
 }
 
 .tourist__photo {
-  background-image: url(/img/ReviewPhotoMob.png);
+  background-image: url(../img/ReviewPhotoMob.png);
   height: 335px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media screen and (min-width: 768px) {
   .tourist__photo {
-    background-image: url(/img/ReviewPhoto.jpg);
+    background-image: url(../img/ReviewPhoto.jpg);
   }
 }
 @media screen and (min-width: 1024px) {
   .tourist__photo {
-    background-image: url(/img/ReviewPhotodesktop.jpg);
+    background-image: url(../img/ReviewPhotodesktop.jpg);
     width: 320px;
     height: 336px;
   }
@@ -509,7 +509,7 @@
 }
 
 .header__baner {
-  background-image: url(/img/HeaderBackgroundmobile.jpg);
+  background-image: url(../img/HeaderBackgroundmobile.jpg);
   height: 860px;
   width: 100%;
   background-repeat: no-repeat;
@@ -517,28 +517,28 @@
 }
 @media screen and (min-width: 768px) {
   .header__baner {
-    background-image: url(/img/HeaderBackgroundtablet.jpg);
+    background-image: url(../img/HeaderBackgroundtablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (min-width: 1024px) {
   .header__baner {
-    background-image: url(/img/HeaderBackground.jpg);
+    background-image: url(../img/HeaderBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media screen and (min-width: 1360px) {
   .header__baner {
-    background-image: url(/img/HeaderBackground.jpg);
+    background-image: url(../img/HeaderBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 
 .main__why {
-  background-image: url(/img/WhyBackground.jpg);
+  background-image: url(../img/WhyBackground.jpg);
   height: 632px;
   width: 100%;
   background-repeat: no-repeat;
@@ -552,20 +552,20 @@
 }
 @media screen and (min-width: 1024px) {
   .main__why {
-    background-image: url(/img/WhyBackground-mini.jpg);
+    background-image: url(../img/WhyBackground-mini.jpg);
     height: 704px;
     background-position: center;
   }
 }
 @media screen and (min-width: 1360px) {
   .main__why {
-    background-image: url(/img/WhyBackgroundDesktop.jpg);
+    background-image: url(../img/WhyBackgroundDesktop.jpg);
     height: 704px;
     background-position: center;
   }
 }
 .main__booknow {
-  background-image: url(/img/render-1477041_1280\ 1.jpg);
+  background-image: url(../img/render-1477041_1280\ 1.jpg);
   height: 616px;
   width: 100%;
   background-repeat: no-repeat;
@@ -575,18 +575,18 @@
 @media screen and (min-width: 768px) {
   .main__booknow {
     height: 588px;
-    background-image: url(/img/render-tablet.jpg);
+    background-image: url(../img/render-tablet.jpg);
   }
 }
 @media screen and (min-width: 1024px) {
   .main__booknow {
-    background-image: url(/img/render.jpg);
+    background-image: url(../img/render.jpg);
     height: 712px;
     padding: 220px 0 0 30px;
   }
 }
 .main__booknow-second {
-  background-image: url(/img/spain-1859434_1280\ 1.jpg);
+  background-image: url(../img/spain-1859434_1280\ 1.jpg);
   height: 616px;
   width: 100%;
   background-repeat: no-repeat;
@@ -596,18 +596,18 @@
 @media screen and (min-width: 768px) {
   .main__booknow-second {
     height: 588px;
-    background-image: url(/img/spain-tablet.jpg);
+    background-image: url(../img/spain-tablet.jpg);
   }
 }
 @media screen and (min-width: 1024px) {
   .main__booknow-second {
-    background-image: url(/img/spain.jpg);
+    background-image: url(../img/spain.jpg);
     height: 712px;
     padding: 220px 30px 0 0;
   }
 }
 .main__tourist {
-  background-image: url(/img/BG.jpg);
+  background-image: url(../img/BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -616,13 +616,13 @@
 }
 @media screen and (min-width: 1024px) {
   .main__tourist {
-    background-image: url(/img/BGmini.jpg);
+    background-image: url(../img/BGmini.jpg);
     height: 736px;
   }
 }
 @media screen and (min-width: 1360px) {
   .main__tourist {
-    background-image: url(/img/BgDesktop.jpg);
+    background-image: url(../img/BgDesktop.jpg);
     height: 708px;
   }
 }
@@ -707,7 +707,7 @@
   width: 140px;
   height: 50px;
   border: none;
-  background-image: url(/icon/search.svg);
+  background-image: url(../icon/search.svg);
   background-repeat: no-repeat;
   background-position-x: 15px;
   background-position-y: 17px;
