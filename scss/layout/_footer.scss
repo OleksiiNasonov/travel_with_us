@@ -1,0 +1,20 @@
+.footer{
+    height: 270px;
+    background-color: black;
+    &__title{
+        padding-top: 80px;
+        text-align: center;
+}
+    &__subtitle{
+        font-family: $primary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        color: $color-white;
+        text-align: center;
+        padding: 8px 0 22px;
+    }
+}
+

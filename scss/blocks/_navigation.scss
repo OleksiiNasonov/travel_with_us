@@ -1,0 +1,28 @@
+.header{
+    &__navigation{
+        position: relative;
+        height: 85px;
+        background-color: $color-blue;
+            @media screen and (min-width:$tablet-start){
+                position: relative;
+                height: 136px;
+                background-color: $color-blue;
+            }
+            @media screen and (min-width: $descktop-small ){
+                height:85px;
+            } 
+            @media screen and (min-width: $descktop ){
+                height:85px;
+            }        
+        }
+    &__nav-title{
+        line-height: 95px;
+        text-align: center;
+            @media screen and (min-width: $descktop-small ){
+                text-align: left;
+                padding-left: 30px;
+                position: absolute;
+                z-index: 1;
+            }
+    } 
+}  

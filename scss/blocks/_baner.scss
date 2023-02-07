@@ -1,0 +1,98 @@
+.header{
+    &__baner{
+        background-image: url(/img/HeaderBackgroundmobile.jpg);
+        height: 860px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+            @media screen and (min-width:$tablet-start) {
+            background-image: url(/img/HeaderBackgroundtablet.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        @media screen and (min-width: $descktop-small ) {
+            background-image: url(/img/HeaderBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        @media screen and (min-width: $descktop ) {
+            background-image: url(/img/HeaderBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+.main{
+    &__why{
+        background-image: url(/img/WhyBackground.jpg);
+        height: 632px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+            @media screen and (min-width:$tablet-start) {
+                height: 661px;
+            }
+            @media screen and (min-width: $descktop-small ){
+                background-image: url(/img/WhyBackground-mini.jpg);
+                height: 704px;
+                background-position: center;
+            }
+            @media screen and (min-width: $descktop ){
+                background-image: url(/img/WhyBackgroundDesktop.jpg);
+                height: 704px;
+                background-position: center;
+            }
+        }
+    &__booknow{
+        background-image: url(/img/render-1477041_1280\ 1.jpg);
+        height: 616px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 120px 0 120px 0;
+            @media screen and (min-width: $tablet-start) {
+                height: 588px;
+                background-image: url(/img/render-tablet.jpg);
+            }
+            @media screen and (min-width: $descktop-small ){
+                background-image: url(/img/render.jpg);
+                height: 712px;
+                padding: 220px 0 0 30px;
+            }
+        }
+    &__booknow-second{
+        background-image: url(/img/spain-1859434_1280\ 1.jpg);
+        height: 616px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 120px 0 120px 0;
+            @media screen and (min-width: $tablet-start) {
+                height: 588px;
+                background-image: url(/img/spain-tablet.jpg);
+            }
+            @media screen and (min-width: $descktop-small ){
+                background-image: url(/img/spain.jpg);
+                height: 712px;
+                padding: 220px 30px 0 0;
+            }
+        }
+    &__tourist{
+        background-image: url(/img/BG.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 980px;
+        width: 100%;
+            @media screen and (min-width: $descktop-small ){
+                background-image: url(/img/BGmini.jpg);
+                height: 736px;
+            }
+            @media screen and (min-width: $descktop){
+                background-image: url(/img/BgDesktop.jpg);
+                height: 708px;
+            }
+        }
+}

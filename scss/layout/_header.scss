@@ -1,0 +1,44 @@
+.header{
+    &__title{
+    color: $color-white;
+    font-family: $primary;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    padding: 295px 0 0 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+    &__subtitle{
+    color: $color-white;
+    font-family: $primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.31em;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    &__scroll{
+        display: block;
+        width: 105px;
+        height: 40px;
+        color: $color-white;
+        background-image: url(/icon/chevron-down.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        text-decoration: none;
+        text-align: center;
+        margin: 210px auto 125px;
+        font-family: $primary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2em;
+    }
+}

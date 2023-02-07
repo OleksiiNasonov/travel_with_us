@@ -1,0 +1,42 @@
+.why__button{
+    display:block;
+    padding: 25px;
+        @media screen and (min-width:$descktop-small){
+            display: inline-block;
+            padding: 0;
+        }
+}
+
+.button{
+    padding-top: 25px;
+}
+.btn{
+    display: block;
+    width: 215px;
+    height: 60px;
+    background-color: $color-dark-blue;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    font-family: $secondary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.btn-booknow{
+    margin: 0;
+}
+
+.why__btn{
+    @media screen and (min-width:$descktop-small) {
+        margin: 20px 0 0 30px;
+    }
+    @media screen and (min-width: $descktop){
+        margin-left: 110px;
+    }
+}

@@ -1,0 +1,19 @@
+// fonts
+$primary: 'Josefin Sans', sans-serif;
+$secondary: 'Aleo', serif;
+
+//color
+$color-white: #ffffff;
+$color-blue: #5373FD;
+$color-dark-blue:#3a5df9;
+$dark-gray: #333333;
+
+//breakpoints
+$descktop:           1360px;
+$descktop-small-end: $descktop -1;
+$descktop-small:     1024px;
+$tablet-end:         $descktop-small -1;
+$tablet-start:       768px;
+$mobile-end:         $tablet-start -1;
+$mobile:             576px;
+

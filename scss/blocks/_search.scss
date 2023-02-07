@@ -1,0 +1,56 @@
+.header{
+    &__search{
+        position: relative;
+        width: 95%;
+        height: 60px; 
+        min-height: 20px;
+        background-color: $color-white;
+        margin: 0 auto;
+        ::-webkit-input-placeholder { 
+            color:    #999999;
+            padding: 50px 0 20px 35px;
+            font-size: 14px;
+            letter-spacing: 0.2em;
+        }
+            @media screen and (min-width: $descktop ){
+                width: 50%;
+            }
+            @media screen and (min-width: $descktop-small ){
+                width: 50%;
+            }
+    }
+    .search{
+        position: absolute;
+        border: none;
+        outline: none; 
+        width: 79%; 
+        height: 60px;
+        font-family: $primary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #090000;
+    }
+    .submit{
+        position: absolute;
+        right: 0px;
+        background: $color-blue;
+        color: $color-white;
+        width: 140px; 
+        height: 50px; 
+        border: none;
+        background-image: url(/icon/search.svg);
+        background-repeat: no-repeat;
+        background-position-x: 15px;
+        background-position-y: 17px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 5px;
+        padding: 15px 25px 15px 50px;
+    }
+}

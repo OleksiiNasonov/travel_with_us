@@ -1,0 +1,14 @@
+.footer{
+    &__social-list{
+        max-width: 250px;
+        height: 24px;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    &__icon:hover svg path{
+            fill: $color-blue;
+            transition-duration: 0.5s;
+    }
+}
