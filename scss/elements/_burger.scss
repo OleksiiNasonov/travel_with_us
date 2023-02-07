@@ -21,7 +21,7 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: $color-white;
 }
 
 .menu__btn > span::before {
@@ -43,7 +43,7 @@
     padding: 20px 0;
     list-style: none;
     text-align: center;
-    background-color: #5373FD;
+    background-color: $color-blue;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 
@@ -60,11 +60,11 @@
     line-height: 20px;
 }
 .menu__item:hover{
-    color: $dark-gray;
+    color: $color-dark-gray;
 }
 
 .menu__item:hover {
-    background-color: #3a5df9;
+    background-color: $color-dark-blue;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
@@ -137,8 +137,8 @@
         padding: 15px;
     }
     .menu__item:hover {
-        background-color: #5373FD;
-        color: $dark-gray;
+        background-color: $color-blue;
+        color: $color-dark-gray;
         transition-duration: 0.5s;
     }
 }
